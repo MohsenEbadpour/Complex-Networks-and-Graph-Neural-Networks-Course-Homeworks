@@ -1,0 +1,62 @@
+********************> Tree of Processing <********************
+
+
+--------> Community # 1
+--------> Length of current sub-graph :  7115
+--------> Length of positive cluster :  3347
+--------> Length of negative cluster :  3768
+--------> Current modularity: 0 New modularity if sub-graph devide: 0.3378
+--------> Result: New modularity is better than current modularity. So, we will devide this sub-graph.
+--------> Length of each Community after devide :  [3768, 3347]
+--------> New IDs of each Community after devide :  [2, 3]
+
+--------> --------> Community # 2
+--------> --------> Length of current sub-graph :  3347
+--------> --------> Length of positive cluster :  1729
+--------> --------> Length of negative cluster :  1618
+--------> --------> Current modularity: 0.3378 New modularity if sub-graph devide: 0.3546
+--------> --------> Result: New modularity is better than current modularity. So, we will devide this sub-graph.
+--------> --------> Length of each Community after devide :  [3768, 1618, 1729]
+--------> --------> New IDs of each Community after devide :  [3, 4]
+
+--------> --------> --------> Community # 3
+--------> --------> --------> Length of current sub-graph :  1729
+--------> --------> --------> Length of positive cluster :  828
+--------> --------> --------> Length of negative cluster :  901
+--------> --------> --------> Current modularity: 0.3546 New modularity if sub-graph devide: 0.3359
+--------> --------> --------> Result: Current modularity is better than new modularity if sub-graph devide. So, we will not devide this sub-graph.
+
+--------> --------> --------> Community # 4
+--------> --------> --------> Length of current sub-graph :  1618
+--------> --------> --------> Length of positive cluster :  853
+--------> --------> --------> Length of negative cluster :  765
+--------> --------> --------> Current modularity: 0.3546 New modularity if sub-graph devide: 0.3403
+--------> --------> --------> Result: Current modularity is better than new modularity if sub-graph devide. So, we will not devide this sub-graph.
+
+--------> --------> Community # 5
+--------> --------> Length of current sub-graph :  3768
+--------> --------> Length of positive cluster :  1694
+--------> --------> Length of negative cluster :  2074
+--------> --------> Current modularity: 0.3546 New modularity if sub-graph devide: 0.4166
+--------> --------> Result: New modularity is better than current modularity. So, we will devide this sub-graph.
+--------> --------> Length of each Community after devide :  [2074, 1694]
+--------> --------> New IDs of each Community after devide :  [6, 7]
+
+--------> --------> --------> Community # 6
+--------> --------> --------> Length of current sub-graph :  1694
+--------> --------> --------> Length of positive cluster :  951
+--------> --------> --------> Length of negative cluster :  743
+--------> --------> --------> Current modularity: 0.4166 New modularity if sub-graph devide: 0.4068
+--------> --------> --------> Result: Current modularity is better than new modularity if sub-graph devide. So, we will not devide this sub-graph.
+
+--------> --------> --------> Community # 7
+--------> --------> --------> Length of current sub-graph :  2074
+--------> --------> --------> Length of positive cluster :  1082
+--------> --------> --------> Length of negative cluster :  992
+--------> --------> --------> Current modularity: 0.4166 New modularity if sub-graph devide: 0.4096
+--------> --------> --------> Result: Current modularity is better than new modularity if sub-graph devide. So, we will not devide this sub-graph.
+Members of each Community: 
+Community # 1 :  1729
+Community # 2 :  1618
+Community # 3 :  1694
+Community # 4 :  2074
